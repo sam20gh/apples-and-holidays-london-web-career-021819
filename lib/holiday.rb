@@ -83,7 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do | holiday, activities|
       activities. each do |activity| 
         if activity == "BBQ"
-          holliday_with_BBQ<< holiday
+          holliday_with_BBQ << holiday
         end
       end
     end

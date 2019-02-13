@@ -43,6 +43,12 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
+  
+  easter_day_supplies = ["Eggs", "Cakes"]
+  valentines_day_supplies = ["Flouvers", "Card"]
+  holiday_hash[:spring][:easter_day]=columbus_day_supplies
+  holiday_hash[:winter][:valentines_day]=valentines_day_supplies
+  holiday_hash
 
 end
 
